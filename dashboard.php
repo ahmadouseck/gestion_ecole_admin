@@ -70,16 +70,20 @@ try {
         </div>
         
         <div class="features-grid">
+
+
+            <a href="./etudiant./index_etudiant.php"style="text-decoration:none">
             <div class="feature-card">
                 <div class="feature-icon">👤</div>
-                <h3 class="feature-title">Profil</h3>
-                <p class="feature-description">Gérez vos informations personnelles et préférences.</p>
+                <h3 class="feature-title">Etudiants</h3>
+                <p class="feature-description">Consultez la liste des etudiants.</p>
             </div>
+            </a>
             <a href="./filiere./index_filiere.php"  style="text-decoration:none">
                 <div class="feature-card">
-                    <div class="feature-icon">📊</div>
+                    <div class="feature-icon">📂</div>
                     <h3 class="feature-title">Filieres</h3>
-                    <p class="feature-description">Modifiez la liste des filieres.</p>
+                    <p class="feature-description">Consultez la liste des filieres.</p>
                 </div>
             </a>
             <div class="feature-card">

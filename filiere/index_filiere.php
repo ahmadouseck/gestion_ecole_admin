@@ -122,7 +122,7 @@ if (isset($_GET['edit'])) {
                     </div>
                     
                     <div class="form-group">
-                        <label for="level">level :</label>
+                        <label for="level">Niveau :</label>
                         <input type="text" id="level" name="level" required 
                                value="<?php echo $editfilieres ? htmlspecialchars($editfilieres->level) : ''; ?>">
                     </div>
@@ -147,7 +147,7 @@ if (isset($_GET['edit'])) {
             <form method="GET" action="" class="search-form">
                 <div class="form-group" style="margin: 0;">
                     <label for="search">🔍 Rechercher :</label>
-                    <input type="text" id="search" name="search" placeholder="name, level ..." 
+                    <input type="text" id="search" name="search" placeholder="nom, niveau ..." 
                            value="<?php echo htmlspecialchars($searchTerm); ?>">
                 </div>
                 <button type="submit" class="btn btn-primary">Rechercher</button>
