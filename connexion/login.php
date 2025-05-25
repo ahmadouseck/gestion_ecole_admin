@@ -177,9 +177,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
         </form>
         
-        <div class="register-link">
-            <p>Pas encore de compte? <a href="register.php">Créer un compte</a></p>
-        </div>
+        
     </div>
 </body>
 </html>
